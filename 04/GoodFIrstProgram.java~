@@ -1,0 +1,12 @@
+public class GoddFirstProgram 
+	{ 
+		public static void main(String[] args) 
+		{ 
+			System.out.println("Mmmm, memes!");
+			System.out.println("do you want a tidepod?");
+			System.out.println("GIMME DRUGS!!!");
+			System.out.println("nah B, brugs are for SHRUGS");
+			System.out.println("dud whats SHRUGS???????");
+			System.out.println("obviously the past tense of <SHRIBBA>");
+	}
+{

@@ -1,0 +1,62 @@
+@import "syntax.css";
+
+html { font-size: 62.5%; }
+
+body
+{
+	background-color: #ffffee;
+	font-family: Verdana, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+
+h1, h2, h3
+{
+	font-family: Georgia, serif;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+tt { font-size: 1.4em; }
+
+h1 { font-size: 2.8em; line-height: 0.536; color: #885522; }
+h2 { font-size: 2.0em; line-height: 0.750; color: #aa9966; padding-top: 0.3em; border-top: solid 1px #885522; }
+h3 { font-size: 1.6em; line-height: 0.937; color: #996633; }
+
+h2 + h3 { margin-top: -0.6em; }
+
+A:link    { color: #996633; }
+A:visited { color: #aa9966; }
+A:hover   { color: #996633; background: #ffffd0; }
+
+#body
+{
+	margin-left: 50px;
+	width: 750px;
+}
+
+PRE.DOSBOX
+{
+	font-family: Fixedsys, System, monospace;
+	font-size: 100%;
+	font-weight: normal;
+	color: silver;
+	background: black;
+	padding: 0 0 .3em .3em;
+	margin: 0 1em 0 1em;
+	width: 54em;
+	border: thin black;
+	line-height: normal;
+}
+
+.DOSBOX KBD
+{
+	font-family: Fixedsys, System, monospace;
+	color: #99ff99;
+}
+
+.DOSBOX SAMP
+{
+	font-family: Fixedsys, System, monospace;
+	color: #9999bb;
+}

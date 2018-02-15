@@ -1,0 +1,43 @@
+ul#summary {
+	border-bottom: 1px solid black;
+	float: right;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	margin-right: 10px;
+	margin-left: 6px;
+	background-color: #ffffee;
+}
+
+ul#summary li {
+	font-family: "Courier New", monospace;
+	list-style-type: none;
+}
+
+.problem_content {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 1.4em;
+	border-top:solid 1px #ddd;
+	border-bottom:solid 1px #aaa;
+	border-left:solid 1px #ddd;
+	border-right:solid 1px #aaa;
+	padding:10px;
+}
+
+.problem_content .C {
+	text-align: center;
+}
+
+.problem_content dfn {
+	border-bottom: 1px dotted green;
+	font-style: normal;
+}
+
+
+dd {
+	padding-bottom: 10px;
+}
+
+dt {
+	font-size: 1.2em;
+	padding-bottom: 5px;
+}
