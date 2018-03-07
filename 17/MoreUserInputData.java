@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+
+public class MoreUserInputData {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("im runnin yo personal info to sell so no games or else!");
+        
+        System.out.print("gimme yo name: "); 
+        String name = input.next(); 
+        
+        System.out.print("Sauce dat last name too nibba: ");
+        String last = input.next();
+        
+        System.out.print("what gr. u in?: " );
+        int grade = input.nextInt();
+        
+        System.out.print("i want yo student id: ");
+        int id = input.nextInt();
+        
+        System.out.print("Whats your average foo??: ");
+        double ave = input.nextDouble();
+        
+        
+        System.out.println("I got it, yo info is");
+        System.out.println("yo name: " + name +" " + last +"");
+        System.out.println("yo grade: " + grade +"");
+        System.out.println("yo id: " + id +""); 
+        System.out.println("yo average: " + ave +"");
+        System.out.println("Now you know not to mess wit me foo, sohcahtoa mah G");
+        
+        }
+  }
+

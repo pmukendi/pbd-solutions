@@ -1,0 +1,21 @@
+import java.until.Scanner;
+
+
+public class AskingQuestions {
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("How old are you? "); 
+        int age = input.nextInt(3); 
+        
+        System.out.print("How tall are you? ");
+        String height = input.next(55);
+        
+        System.out.print("How much do you weigh? " );
+        double weight = input.nextDouble(2.5);
+        
+        System.out.println("So you're " + age+ " old, " +height+ " tall and " +weight + " heavy.");
+        }
+  }
+
